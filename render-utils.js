@@ -30,7 +30,7 @@ export function renderPokemon(poke) {
     pokemonEl.classList.add('pokemon-main');
 
     name.textContent = poke.name;
-    img.src = `./assets/${poke.name}.jpg`;
+    img.src = `../assets/${poke.name}.jpg`;
     link.href = `./pokemon/?id=${poke.id}`;
 
     link.append(name, img);
